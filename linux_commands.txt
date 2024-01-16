@@ -1,0 +1,16 @@
+sudo apt install jq     //Install jq
+
+read name       //assigns user input to variable 'name'
+./filename.sh   //to run the script
+chmod +x filename.sh       //to get read-write permission
+lsblk           //lists block devices
+cat 1> filename.txt     //1 for standard output. > for overwriting
+cat 1>> filename.txt    //>> for appending
+cal 1985                //Will display year 1985 calendar
+cal bjhsb 2>> error.txt //2 for standard error stream
+cat 0< input.txt        //0 for standard input. < for overwriting. It will display output to terminal.
+cat < input.txt         //same as above because 0 is always connected to < only.
+cat input.txt           //same as above
+cat 0< input.txt 1> output.txt 2>>error.txt     //Input redirection from keyboard to input.txt
+                                                //Output redirection from terminal to output.txt
+                                                //Error redirection from terminal to error.txt 

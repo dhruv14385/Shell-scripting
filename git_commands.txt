@@ -1,0 +1,29 @@
+git clone <repo_hyperlink>  //to copy a repo to local machine
+git init <directory>        //Initialize empty Git repo 
+git add <directory>         //Stage all changes in <directory> for the next commit
+git commit -m "<message>"   //Commit the staged snapshot
+git push
+git push origin master
+git pull
+git status                  //List which files are staged, unstaged, and untracked.
+git log                     //Display the entire commit history using the default format.
+git diff                    //Shows difference between branches 
+git branch                  //It will show all the branches you have
+git checkout -b <branch>    //Create and switch to new branch
+git checkout <branch1>      //Switch between branches 
+git branch -d <branch>      //To delete branch
+git merge <branch>
+git config --global user.name "<username>"      //To assign username
+git config --global user.email "<email>"
+git config --global --list 
+git --version
+git config user.name        //To check current username
+ssh-keygen -t rsa - b 4096 -C "<email>"     //To generate SSH key
+pbcopy < ~/file.txt         //Copy content of file.txt to clipboard
+git remote add origin <repo_hyperlink>      //to add repo created from local to github
+git reset                   //Undo add  
+git reset HEAD~1            //Undo last commit 
+git reset --hard <hash number from git log>        //to go back multiple steps of changes 
+sudo apt-get install tree   //To install tree utility 
+explorer                    //Opens windows explorer
+echo "new text" > file.txt  //Creates a new file named file.txt and inserts "new text" in it.
