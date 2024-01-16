@@ -1,1 +1,1 @@
-#Shell scripts
+I have saved some basic shell scripts in this repositery.
