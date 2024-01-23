@@ -1,3 +1,4 @@
+CTRL + K + C for multiple line comments
 sudo apt install jq     //Install jq
 
 read name       //assigns user input to variable 'name'
