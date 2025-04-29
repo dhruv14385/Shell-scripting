@@ -15,3 +15,10 @@ cat input.txt           //same as above
 cat 0< input.txt 1> output.txt 2>>error.txt     //Input redirection from keyboard to input.txt
                                                 //Output redirection from terminal to output.txt
                                                 //Error redirection from terminal to error.txt 
+
+//Commands for Abhishek Veeramalla's Linux playlist
+sudo su -              //To switch to root user
+which ls               //shows full path of ls command
+echo $PATH             //lists all the PATH
+useradd user1          //to add a new user named user1
+vim /etc/passwd        //lists all users
