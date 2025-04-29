@@ -22,3 +22,10 @@ which ls               //shows full path of ls command
 echo $PATH             //lists all the PATH
 useradd user1          //to add a new user named user1
 vim /etc/passwd        //lists all users
+passwd user1           //To setup password for user1
+cat /etc/shadow        //To see encrypted password
+userdel user1          //To delete user1
+su - user1             //switch user to user1
+groupadd group1        //Creates a new group
+cat /etc/group         //Lists all groups
+usermod -aG group1 user1       //To add user1 to group1
